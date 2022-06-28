@@ -5,6 +5,8 @@ During my period of moving freelance to full-time, I learned React Native. Altho
 In this project, I built a simple mobile app which leverages `axios`, `node.js` (for the back end, source code for back end here: https://github.com/cwaj400/rn-track-server), `express`, and `mongo`.
 The app allows users to log in, or register for an account (password data is hashed and stored in mongodb). User can then add a new navigation object, where their movement is tracked. This data is then stored in an array of cords and saved in mongo. The user can then re-render this data in a list of places they've been.
 
+It's super ugly - I know. But I learned React Native (again). So that's cool.
+
 
 ![Display](https://github.com/cwaj400/track-front-end/blob/master/assets/front1.png)
 ![Display](https://github.com/cwaj400/track-front-end/blob/master/assets/front2.png)
