@@ -32,6 +32,8 @@ const stopRecording = dispatch => () => {
 }
 
 const addLocation = dispatch => (location, recording) => {
+    // let location = {"coords": {"accuracy": 5, "altitude": 0, "altitudeAccuracy": -1, "heading": 289.69, "latitude": 37.50142772, "longitude": -122.32853953, "speed": 32.37}, "timestamp": 1656509517540.3162}
+
     dispatch({type: 'add_current_location', payload: location})
     //Add to locations array
     if (recording) {
